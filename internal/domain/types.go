@@ -49,10 +49,11 @@ type Value struct {
 
 // UIElement описывает распознанный элемент интерфейса.
 type UIElement struct {
-	Kind       string    `json:"kind"`
-	Label      string    `json:"label"`
-	Region     Rectangle `json:"region"`
-	Confidence float64   `json:"confidence"`
+	Kind             string    `json:"kind"`
+	Label            string    `json:"label"`
+	Region           Rectangle `json:"region"`
+	Confidence       float64   `json:"confidence"`
+	GeometryAdjusted bool      `json:"geometry_adjusted,omitempty"`
 }
 
 // Observation представляет нормализованный результат анализа кадра.
@@ -120,6 +121,7 @@ type BarterRecipe struct {
 type TradeStep struct {
 	Kind       string `json:"kind"`
 	ItemID     string `json:"item_id,omitempty"`
+	RecipeID   string `json:"recipe_id,omitempty"`
 	Quantity   int64  `json:"quantity,omitempty"`
 	LimitPrice int64  `json:"limit_price,omitempty"`
 }
@@ -137,6 +139,10 @@ type TradeOpportunity struct {
 	LiquidityScore  float64         `json:"liquidity_score"`
 	PriceVolatility float64         `json:"price_volatility"`
 	RequiredSlots   int             `json:"required_slots"`
+	QuoteObservedAt time.Time       `json:"quote_observed_at"`
+	ResaleKnown     bool            `json:"resale_known"`
+	ResultItemID    string          `json:"result_item_id,omitempty"`
+	ResultQuantity  int64           `json:"result_quantity,omitempty"`
 	ExpiresAt       time.Time       `json:"expires_at"`
 	Steps           []TradeStep     `json:"steps"`
 }
@@ -157,11 +163,14 @@ type RiskLimits struct {
 type TradeExecutionStatus string
 
 const (
-	TradePending    TradeExecutionStatus = "PENDING"
-	TradeRunning    TradeExecutionStatus = "RUNNING"
-	TradeRecovering TradeExecutionStatus = "RECOVERING"
-	TradeCompleted  TradeExecutionStatus = "COMPLETED"
-	TradeFailed     TradeExecutionStatus = "FAILED"
+	TradePending           TradeExecutionStatus = "PENDING"
+	TradeRunning           TradeExecutionStatus = "RUNNING"
+	TradeRecovering        TradeExecutionStatus = "RECOVERING"
+	TradeCompleted         TradeExecutionStatus = "COMPLETED"
+	TradeCompletedMismatch TradeExecutionStatus = "COMPLETED_MISMATCH"
+	TradeCompensated       TradeExecutionStatus = "COMPENSATED"
+	TradeHeld              TradeExecutionStatus = "HELD"
+	TradeFailed            TradeExecutionStatus = "FAILED"
 )
 
 // TradeExecution хранит журнал исполняемой торговой saga.

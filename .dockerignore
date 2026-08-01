@@ -1,0 +1,7 @@
+*
+!data/
+!data/build/
+!data/build/controller-linux
+!scripts/
+scripts/*
+!scripts/lmstudio-container-entrypoint.sh

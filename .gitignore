@@ -1,0 +1,22 @@
+# Go build artifacts
+/controller
+/windows-agent
+/windows-agent.exe
+*.test
+
+# Runtime state and recordings
+/data/
+/recordings/
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+
+# Local configuration
+.env
+config.local.json

@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "detector_config": "screens.local.json",
+  "risk": {
+    "max_budget": 500000,
+    "max_item_price": 150000,
+    "min_profit": 10000,
+    "min_roi": 0.1,
+    "min_confidence": 0.9,
+    "max_quote_age": "2m",
+    "available_slots": 8,
+    "allow_unknown_resale": false
+  },
+  "watchlist": [
+    {
+      "id": "KSS2",
+      "name": "KSS2",
+      "enabled": true,
+      "max_buy_price": 82000,
+      "min_sale_price": 93949
+    }
+  ],
+  "recipes": [],
+  "navigation": {
+    "transitions": [
+      {
+        "id": "main-menu-to-contacts",
+        "from": "MAIN_MENU",
+        "to": "CONTACTS",
+        "class": "NAVIGATION",
+        "actions": [
+          {
+            "id": "open-contacts",
+            "kind": "CLICK",
+            "bbox": {
+              "x": 0.5,
+              "y": 0.95,
+              "width": 0.095,
+              "height": 0.045
+            },
+            "value": "LEFT"
+          }
+        ],
+        "verify": {
+          "state": "CONTACTS",
+          "min_confidence": 0.86,
+          "timeout": "5s"
+        },
+        "max_retry": 2
+      }
+    ]
+  },
+  "scanners": {
+    "market": {
+      "interval": "30s",
+      "staleness": "2m"
+    },
+    "contacts": {
+      "interval": "10m",
+      "staleness": "30m"
+    },
+    "orders": {
+      "interval": "1m",
+      "staleness": "5m"
+    }
+  },
+  "strategy": {
+    "profit_weight": 1,
+    "roi_weight": 1,
+    "liquidity_weight": 0.5,
+    "confidence_weight": 0.5,
+    "risk_weight": 1,
+    "slot_weight": 0.1,
+    "profit_scale": 10000,
+    "max_step_attempts": 3,
+    "max_multistep_depth": 3,
+    "max_recipe_expansions": 10000
+  }
+}

@@ -1,0 +1,131 @@
+name: arena-trading-agent
+
+services:
+  lmstudio:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.lmstudio
+    image: arena-lmstudio:0.8b
+    restart: "on-failure:5"
+    environment:
+      ARENA_LMSTUDIO_HOME: /home/seraf/.lmstudio
+      ARENA_LM_PORT: "1234"
+    volumes:
+      - type: bind
+        source: ${ARENA_LMSTUDIO_HOME:-/home/seraf/.lmstudio}
+        target: /home/seraf/.lmstudio
+      - type: bind
+        source: ${ARENA_LM_MODEL_DIR:-/home/seraf/.lmstudio/models/lmstudio-community/Qwen3.5-0.8B-GGUF}
+        target: /home/seraf/.lmstudio/models/lmstudio-community/Qwen3.5-0.8B-GGUF
+        read_only: true
+    ports:
+      - "127.0.0.1:1234:1234"
+    mem_limit: 1536m
+    memswap_limit: 1536m
+    cpus: 1.5
+    pids_limit: 160
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "curl", "--silent", "--fail", "--max-time", "2", "http://127.0.0.1:1234/api/v1/models"]
+      interval: 5s
+      timeout: 3s
+      retries: 24
+      start_period: 10s
+
+  ocr:
+    build:
+      context: services/ocr
+      dockerfile: Dockerfile
+    image: arena-ocr:0.1.0
+    restart: "on-failure:5"
+    ports:
+      - "127.0.0.1:8788:8788"
+    mem_limit: 768m
+    memswap_limit: 768m
+    cpus: 1.0
+    pids_limit: 96
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+      - /home/arena:size=64m,uid=1000,gid=1000
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+    healthcheck:
+      test:
+        - CMD
+        - /app/.venv/bin/python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8788/healthz', timeout=2)"
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+
+  controller:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.controller
+    image: arena-controller:0.2.0
+    restart: "on-failure:5"
+    command:
+      - -listen
+      - 0.0.0.0:8787
+      - -config
+      - ${ARENA_RUNTIME_CONFIG_CONTAINER:-/app/configs/runtime.example.json}
+      - -db
+      - /app/data/arena.db
+      - -recordings
+      - /app/data/frames
+      - -lm-studio
+      - http://lmstudio:1234
+      - -lm-model
+      - qwen3.5-0.8b
+      - -lm-auto-load=true
+      - -lm-context
+      - "2048"
+      - -ocr
+      - http://ocr:8788
+      - -expected-width
+      - ${ARENA_EXPECTED_WIDTH:-0}
+      - -expected-height
+      - ${ARENA_EXPECTED_HEIGHT:-0}
+      - -expected-dpi
+      - ${ARENA_EXPECTED_DPI:-0}
+    depends_on:
+      lmstudio:
+        condition: service_healthy
+      ocr:
+        condition: service_healthy
+    volumes:
+      - ./configs:/app/configs:ro
+      - ./data:/app/data
+    ports:
+      - "127.0.0.1:8787:8787"
+    mem_limit: 384m
+    memswap_limit: 384m
+    cpus: 1.0
+    pids_limit: 64
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "curl", "--silent", "--fail", "--max-time", "2", "http://127.0.0.1:8787/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s

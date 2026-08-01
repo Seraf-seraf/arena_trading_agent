@@ -1,0 +1,1482 @@
+(node:2383) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `lm-studio --trace-warnings ...` to show where the warning was created)
+(node:2383) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/settings.json
+[VersionMigrationProvider] Last recorded app version: v0.4.20-b1
+[VersionMigrationProvider] Current app version: v0.4.20-b1
+[VersionMigrationProvider] No app version update detected.
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/credentials/lmstudio-hub.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/artifact-permissions-list.json
+[FindExistingServer] Failed to find local API server on known ports: [AggregateError: All promises were rejected] {
+  [errors]: [
+    TypeError: fetch failed
+        at node:internal/deps/undici/undici:14900:13
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async _0x5184f3 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1317535)
+        at async Promise.any (index 0)
+        at async _0x510bd7 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1318625) {
+      [cause]: [Error]
+    },
+    TypeError: fetch failed
+        at node:internal/deps/undici/undici:14900:13
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async _0x5184f3 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1317535)
+        at async Promise.any (index 1)
+        at async _0x510bd7 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1318625) {
+      [cause]: [Error]
+    },
+    TypeError: fetch failed
+        at node:internal/deps/undici/undici:14900:13
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async _0x5184f3 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1317535)
+        at async Promise.any (index 2)
+        at async _0x510bd7 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1318625) {
+      [cause]: [Error]
+    },
+    TypeError: fetch failed
+        at node:internal/deps/undici/undici:14900:13
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async _0x5184f3 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1317535)
+        at async Promise.any (index 3)
+        at async _0x510bd7 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1318625) {
+      [cause]: [Error]
+    },
+    TypeError: fetch failed
+        at node:internal/deps/undici/undici:14900:13
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async _0x5184f3 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1317535)
+        at async Promise.any (index 4)
+        at async _0x510bd7 (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1531:1318625) {
+      [cause]: [Error]
+    }
+  ]
+}
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-profile.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/local-identity.json
+[UtilsProvider] esbuild already exists at /home/seraf/.lmstudio/.internal/utils/esbuild, comparing sizes.
+[UtilsProvider] Sizes match, skipping extraction of esbuild
+[UtilsProvider] node already exists at /home/seraf/.lmstudio/.internal/utils/node, comparing sizes.
+[UtilsProvider] Sizes match, skipping extraction of node
+[UtilsProvider] deno already exists at /home/seraf/.lmstudio/.internal/utils/deno, comparing sizes.
+[UtilsProvider] Sizes match, skipping extraction of deno
+[ProcessForkingProvider] Using NodeProcessForker
+[ProcessForkingProvider] Python process is available for model loads
+Forking systemresourcesworker: isDevBuild: false, isElectron: true
+[ProcessForkingProvider][NodeProcessForker] Spawned process 2520
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/backend-preferences-v1.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/internal-engine-index.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/http-server-config.json
+[FileData] Initializing FileData
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/permissions-store.json
+[ProcessForkingProvider][NodeProcessForker] Spawned process 2562
+[2498:0730/211055.973607:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[SystemResourcesProvider] Hardware survey successfully achieved through bundled 'vulkan' liblmstudio.
+[ProcessForkingProvider][NodeProcessForker] Exited process 2562
+21:10:56.008 › Hardware survey for general system resources through 'vulkan' took 184.14ms
+[ProcessForkingProvider][NodeProcessForker] Spawned process 2595
+[ProcessForkingProvider][NodeProcessForker] Exited process 2595
+[ProcessForkingProvider][NodeProcessForker] Spawned process 2602
+[ProcessForkingProvider][NodeProcessForker] Exited process 2602
+[SystemResourcesProvider] Detected device type: Other
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/model-data.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/hardware-config.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/global-plugin-configs.json
+[InternalPluginsProvider] Skipping unbundling of plugin lmstudio/rag-v1 as it is already unbundled and has a revision (#8) greater than or equal to the bundled plugin revision (#8).
+[InternalPluginsProvider] Skipping unbundling of plugin lmstudio/js-code-sandbox as it is already unbundled and has a revision (#7) greater than or equal to the bundled plugin revision (#7).
+[InternalPluginsProvider] Indexing installed plugins.
+[InternalPluginsProvider] Found new installed plugin: lmstudio/js-code-sandbox
+[InternalPluginsProvider] Found new installed plugin: lmstudio/rag-v1
+[InternalPluginsProvider] Found new installed plugin: mcp/codex-apps
+[InternalPluginsProvider] Found new installed plugin: mcp/context7
+[InternalPluginsProvider] Found new installed plugin: mcp/filesystem
+[InternalPluginsProvider] Found new installed plugin: mcp/local-rag
+[InternalPluginsProvider] Found new installed plugin: mcp/memory
+[InternalPluginsProvider] Found new installed plugin: mcp/playwright
+[InternalPluginsProvider] Found new installed plugin: mcp/sequential-thinking
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/mcp.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/credentials/mcp-oauth/context7/client.json
+[ApiPredictionHistoryProvider] Evicted 1 nodes from shard 'pack-0001' (kept 24, before 25).
+21:10:56.219 › [APIPredictionHistory] Time-based history node eviction summary: cutoff=2026-06-30T15:10:56.000Z shards_scanned=1 shards_changed=1 nodes_before=25 nodes_evicted=1 nodes_kept=24 index_stale_ids_removed=1
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/ui-state/global.json
+[LMSInternal][LMSAuthenticator][Client=LM Studio] Client created.
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/conversation-config.json
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider][Watcher-0] Sync: Subscribing to /home/seraf/.lmstudio
+[FileWatchingProvider] Sync completed.
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+21:10:56.839 › App starting...
+21:10:56.840 › [AppUpdater] Feed base: https://updates.lmstudio.ai, channel: stable
+21:10:56.840 › [AppUpdater] Checking for updates... (current state: idle)
+21:10:56.841 › AppUpdater state changed to checking-for-updates-periodic
+21:10:56.842 › [AppUpdater] Fetching version info from https://versions-prod.lmstudio.ai/update/linux/x86/0.4.20
+App is ready
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/global-hotkeys/lmstudio.json
+App is ready
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/persistent-extension-pack-state.json
+[DependencyInjectionContext] Injecting dependencies...
+[DependencyInjectionContext] Successfully injected 48 dependencies in 0.62ms.
+[DependencyInjectionContext] Start calling onInjected()...
+[DependencyInjectionContext] Finished calling onInjected()...
+[LMSInternal][LMSAuthenticator][Client=plugin:builtin:lmstudio/default-prediction-loop-handler] Client created.
+[   PredictionLoopHandler] Register with LM Studio
+[LMSInternal][LMSAuthenticator][Client=plugin:builtin:lmstudio/default-prediction-loop-handler][Endpoint=setPredictionLoopHandler] Registering prediction loop handler.
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/ui-state/window-1.json
+[2383:0730/211057.065708:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+Preload script prod path /tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/main_window_preload.js
+[2383:0730/211057.183739:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+21:10:57.636 › [AppUpdater] Received version info response
+21:10:57.636 › [AppUpdater] Current version: 0.4.20 (build: 1), new version: 0.4.20 (build: 1)
+21:10:57.636 › No update available: 0.4.20 (build: 1) <= 0.4.20 (build: 1)
+21:10:57.637 › AppUpdater state changed to idle
+[DelayedInitProvider] Running delayed init: data initialization
+[DelayedInitProvider] Running delayed init: update lms
+[LmsProvider] Extracting lms from /tmp/.mount_LM-StuTmeouM/resources/app/.webpack/lms to /home/seraf/.lmstudio/bin/lms
+[DelayedInitProvider] Running delayed init: autoStartServer
+[2383:0730/211057.972788:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[DelayedInitProvider] Running delayed init: ModelIndexProvider
+[DelayedInitProvider] Running delayed init: initialMCPSync
+[MCPProvider] Start updating MCP servers.
+[MCPProvider] Update plan {
+  removedMCPServerNames: [],
+  deletedMCPServerNames: [],
+  addedServers: []
+}
+[DelayedInitProvider] Running delayed init: Fetch LM Link Account Status
+[DelayedInitProvider] Running delayed init: Unbundle dependencies
+[BundledDepsUnpackager] Unbundling engines from the app installer... (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/bin/extensions/backends -> /home/seraf/.lmstudio/extensions/backends)
+[DelayedInitProvider] Running delayed init: MultiplexedModelIndexProvider Start Collection
+[DelayedInitProvider] Running delayed init: MultiplexedRuntimeIndexProvider Start Collection
+[DelayedInitProvider] Running delayed init: MultiplexedSystemInfoProvider Start Collection
+[DelayedInitProvider] Running delayed init: MultiplexedInternalPluginsProvider Start Collection
+[DelayedInitProvider] Running delayed init: MultiplexedDownloadsProvider Start Collection
+[DelayedInitProvider] Running delayed init: MultiplexedModelLoadingProvider Start Collection
+[DelayedInitProvider] Running delayed init: startAPIServer
+[APIServerProvider] Trying to start the API Server on port: 41343
+[DelayedInitProvider] Running delayed init: LoginItemSync
+[DelayedInitProvider] Running delayed init: initial fetch feed
+[AuthenticatedApiClient] Making request to https://lmstudio.ai/api/v1/models?action=staff-picks
+[DelayedInitProvider] Running delayed init: Perform initial chat indexing
+[DelayedInitProvider] Running delayed init: Refresh backends master list
+[DelayedInitProvider] Running delayed init: Check model extension pack updates
+[MultiplexedModelIndexProvider][LocalAndRemoteModelIndexCollector] Subscribed to local resources
+[MultiplexedRuntimeIndexProvider][LocalAndRemoteSelectedBackendInfoMapCollector] Subscribed to local resources
+[MultiplexedSystemInfoProvider][LocalAndRemoteSystemInfoCollector] Subscribed to local resources
+[MultiplexedInternalPluginsProvider][LocalAndRemotePluginsCollector] Subscribed to local resources
+[MultiplexedDownloadsProvider][LocalAndRemoteDownloadJobSummariesCollector] Subscribed to local resources
+[MultiplexedModelLoadingProvider][LocalAndRemoteModelInstancesCollector] Subscribed to local resources
+[InternalPluginsProvider] Indexing installed plugins.
+[ModelIndexProvider] Directory added: /home/seraf/.lmstudio/models
+[APIServerProvider] API Server started on port: 41343
+[2383:0730/211058.011034:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[ModelIndexProvider][Op-1] Requested to index directory: /home/seraf/.lmstudio/models
+[ModelIndexProvider][Op-1] Starting indexing operation on directory: /home/seraf/.lmstudio/models
+[ModelIndexProvider] Directory added: /home/seraf/.lmstudio/hub/models
+[ModelIndexProvider][Op-2] Requested to index directory: /home/seraf/.lmstudio/hub/models
+[ModelIndexProvider][Op-2] Starting indexing operation on directory: /home/seraf/.lmstudio/hub/models
+[ModelIndexProvider] Directory added: /home/seraf/.lmstudio/.internal/bundled-models
+[ModelIndexProvider][Op-3] Requested to index directory: /home/seraf/.lmstudio/.internal/bundled-models
+[ModelIndexProvider][Op-3] Starting indexing operation on directory: /home/seraf/.lmstudio/.internal/bundled-models
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[ConversationsSearchProvider] Indexing completed in 43.27198500000031 ms
+[2383:0730/211058.049882:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/211058.126343:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[InternalPluginsProvider] Indexing installed plugins.
+[LmsProvider] Extracted lms successfully
+[GGUFMetadataProvider] Reading GGUF metadata for /home/seraf/.lmstudio/models/lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf took 1357ms
+[AuthenticatedApiClient] Request to https://lmstudio.ai/api/v1/models?action=staff-picks took 1612 ms
+[MCPProvider] Update plan applied
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=status] Getting HTTP server status signal...
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=permissionsStore] Getting permission token store writable signal...
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/conversations/1784900209892.conversation.json
+[BundledDepsUnpackager] ✅ Finished unbundling engines from the app installer. [3584.27 ms], hasAnythingMoved: true
+[BundledDepsUnpackager] Unbundling frameworks from the app installer... (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/bin/extensions/frameworks -> /home/seraf/.lmstudio/extensions/frameworks)
+[BundledDepsUnpackager] ✅ Finished unbundling frameworks from the app installer. [4.18 ms], hasAnythingMoved: false
+[BundledDepsUnpackager] Unbundling model extension packs from the app installer... (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/bin/extensions/models -> /home/seraf/.lmstudio/extensions/models)
+[BundledDepsUnpackager] No bundled source directory found at '/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/bin/extensions/models'. Nothing to unbundle.
+[BundledDepsUnpackager] Unbundling bundled models from the app installer... (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/bin/bundled-models -> /home/seraf/.lmstudio/.internal/bundled-models)
+[BundledDepsUnpackager] ✅ Finished unbundling bundled models from the app installer. [2.92 ms], hasAnythingMoved: false
+[BundledDepsUnpackager] Running post install script for /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/app-harmony-linux-x86@6...
+[amphibianUtils] Post-extraction target path: /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/app-harmony-linux-x86@6
+[amphibianUtils] Skipping post-install script execution because pyvenv.cfg already exists
+[BundledDepsUnpackager] ✅ Finished running post install script for /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/app-harmony-linux-x86@6. [0.68 ms]
+[BundledDepsUnpackager] Running post install script for /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/cpython3.11-linux-x86@3...
+[amphibianUtils] Post-extraction target path: /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/cpython3.11-linux-x86@3
+[amphibianUtils] Executing Python command:  /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/cpython3.11-linux-x86@3/bin/python -I /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/cpython3.11-linux-x86@3/postinstall.py
+[amphibianUtils] stdout: *** Error compiling '/home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/cpython3.11-linux-x86@3/lib/Tix8.4.3/pref/WmDefault.py'...
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (WmDefault.py, line 86)
+
+[BundledDepsUnpackager] ✅ Finished running post install script for /home/seraf/.lmstudio/extensions/backends/vendor/_amphibian/cpython3.11-linux-x86@3. [812.86 ms]
+[BackendManager] Performing backend hardware survey...
+[LockDebounceTaskQueue] Executing debounced task. Processed 1 requests, executing only the final one.
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[BackendManager] Surveying hardware with backends with options: {"type":"newAndSelected"}
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-avx2@2.23.1'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-avx2@2.25.2'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-avx2@2.27.1'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-nvidia-cuda-avx2@2.23.1'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-nvidia-cuda-avx2@2.25.2'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-nvidia-cuda-avx2@2.27.0'. Reason: not selected
+[BackendManager] Surveying selected engine 'llama.cpp-linux-x86_64-nvidia-cuda-avx2@2.27.1'
+[ProcessForkingProvider][NodeProcessForker] Spawned process 2721
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=settings] Getting HTTP server settings writable signal...
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=serverLogBufferData] Getting HTTP server log buffer data signal...
+[BackendManager] Survey for engine 'llama.cpp-linux-x86_64-nvidia-cuda-avx2@2.27.1' took 2756.59ms
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-nvidia-cuda12-avx2@2.25.2'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-vulkan-avx2@2.23.1'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-vulkan-avx2@2.25.2'. Reason: not selected
+[BackendManager] Skipping resurvey of engine 'llama.cpp-linux-x86_64-vulkan-avx2@2.27.1'. Reason: not selected
+[ProcessForkingProvider][NodeProcessForker] Exited process 2721
+[BackendManager] Updating backend preferences file at '/home/seraf/.lmstudio/.internal/backend-preferences-v1.json' for current environment...
+[RuntimeIndexProvider] Backend preferences file set for the first time: [{"model_format":"gguf","name":"llama.cpp-linux-x86_64-nvidia-cuda-avx2","version":"2.27.1"}]. Setting as last preferences for subscription.
+[BackendManager] Backend preferences file update complete
+[IndexLockDebounceQueue] Executing debounced runtime index tasks.
+[ModelExtensionPackIndexProvider] Indexing model extension packs. { directory: '/home/seraf/.lmstudio/extensions/models' }
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[ModelExtensionPackIndexProvider] Indexing model extension packs. { directory: '/home/seraf/.lmstudio/extensions/models' }
+[2383:0730/211105.286528:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[ModelExtensionPackIndexProvider] Model extension pack descriptors loaded. {
+  descriptorCount: 0,
+  directory: '/home/seraf/.lmstudio/extensions/models'
+}
+[ModelExtensionPackIndexProvider] Model extension pack index ready. {
+  directory: '/home/seraf/.lmstudio/extensions/models',
+  durationMs: 7,
+  modelExtensionPacks: [],
+  packCount: 0
+}
+[ModelExtensionPackIndexProvider] Model extension pack descriptors loaded. {
+  descriptorCount: 0,
+  directory: '/home/seraf/.lmstudio/extensions/models'
+}
+[ModelExtensionPackIndexProvider] Model extension pack index ready. {
+  directory: '/home/seraf/.lmstudio/extensions/models',
+  durationMs: 6,
+  modelExtensionPacks: [],
+  packCount: 0
+}
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[BundledDepsUnpackager] Upgrading selected runtimes...
+[BundledDepsUnpackager] Finding latest version for runtime: llama.cpp-linux-x86_64-nvidia-cuda-avx2
+[BundledDepsUnpackager] Matching versions found: 2.23.1, 2.25.2, 2.27.0, 2.27.1
+[BundledDepsUnpackager] Latest version found: 2.27.1
+[DelayedInitProvider] Running delayed init after UI: plugins init load
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf.json
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/lmstudio-community/Qwen3.5-2B-GGUF/Qwen3.5-2B-Q4_K_M.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/google/gemma-4-12b-qat.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/lmstudio-community/Ministral-3-14B-Reasoning-2512-GGUF/Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/qwen2.5-coder-7b-instruct-q4_k_m.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/.json
+[CachedFileDataProvider] File deleted, reading data. Path: /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf.json
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[ModelLoadingProvider] Requested to load model Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf with opts {
+  identifier: { desired: 'qwen2.5-coder-14b-instruct', conflictBehavior: 'bump' },
+  excludeUserModelDefaultConfigLayer: true,
+  instanceLoadTimeConfig: { fields: [] },
+  ttlMs: undefined,
+  bypassGuardrails: false
+}
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[ModelLoadingProvider] Selected backend supports enabled engine protocol runtime llama-server at /home/seraf/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-nvidia-cuda-avx2-2.27.1/llama-server
+[ModelLoadingProvider] Loading LLM instance AU1tjHWfIKsyOpn8Km2y9e6e with engine protocol runtime llama-server
+[ModelLoadingProvider] Started loading model Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf
+21:14:07.484 › [LM Studio] GPU Configuration:
+  Strategy: evenly
+  Priority: []
+  Disabled GPUs: []
+  Limit weight offload to dedicated GPU Memory: OFF
+  Offload KV Cache to GPU: ON
+[ProcessForkingProvider][NodeProcessForker] Spawned process 3238
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[ModelLoadingProvider] LMSCore.getAvailableVRAMByDevice failed for engine protocol runtime: Failed to initialize NVML, error code: 9
+[ProcessForkingProvider][NodeProcessForker] Exited process 3238
+21:14:07.829 › Falling back to shell for live VRAM by device
+21:14:07.917 › [LM Studio] Live GPU memory info (source 'shell'):
+  GPU 0: NVIDIA GeForce RTX 3060 (Used: 1055.92 MB, Total: 12.88 GB, Free: 11.83 GB)
+21:14:07.921 › [LM Studio] Model load size estimate with raw num offload layers '48' and context length '8192':
+  Model: 9.26 GB
+  Context: 1005.36 MB
+  Total: 10.26 GB
+21:14:07.922 › [LM Studio] Strict GPU VRAM cap is OFF: GPU offload layers will not be checked for adjustment
+21:14:07.923 › [LM Studio] Resolved GPU config options:
+  Num Offload Layers: 48
+  Num CPU Expert Layers: 0
+  Main GPU: 0
+  Tensor Split: [0]
+  Disabled GPUs: []
+[LlamaServerEngineProtocolDriver] Launching llama-server with AutoFit disabled. {
+  autoFitEnabled: false,
+  modelIdentifier: 'Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf'
+}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=openContextMenu] Opening context menu [
+  {
+    id: 1,
+    label: 'Открыть в Проводнике',
+    enabled: true,
+    icon: undefined,
+    iconDark: undefined,
+    accelerator: undefined
+  },
+  {
+    id: 2,
+    label: 'Закрепить вверху',
+    enabled: true,
+    icon: undefined,
+    iconDark: undefined,
+    accelerator: undefined
+  },
+  {
+    id: 3,
+    label: 'Копировать идентификатор по умолчанию',
+    enabled: true,
+    icon: undefined,
+    iconDark: undefined,
+    accelerator: undefined
+  },
+  {
+    id: 4,
+    label: 'Скопировать абсолютный путь',
+    enabled: true,
+    icon: undefined,
+    iconDark: undefined,
+    accelerator: undefined
+  },
+  { type: 'separator' },
+  {
+    id: 5,
+    label: 'Показать необработанные метаданные',
+    enabled: true,
+    icon: undefined,
+    iconDark: undefined,
+    accelerator: undefined
+  },
+  { type: 'separator' },
+  {
+    id: 6,
+    label: 'Открыть на Hugging Face',
+    enabled: true,
+    icon: undefined,
+    iconDark: undefined,
+    accelerator: undefined
+  },
+  { type: 'separator' },
+  {
+    id: 7,
+    label: 'Удалить',
+    enabled: true,
+    icon: undefined,
+    iconDark: undefined,
+    accelerator: undefined
+  }
+]
+[EngineProtocolRuntimeManager] Started engine protocol runtime llama-server for AU1tjHWfIKsyOpn8Km2y9e6e on port 45835
+[ModelLoadingProvider] LLM model loaded. {
+  backend: {
+    engine: 'llama.cpp',
+    name: 'llama.cpp-linux-x86_64-nvidia-cuda-avx2',
+    version: '2.27.1'
+  },
+  contextLength: 8192,
+  defaultIdentifier: 'qwen2.5-coder-14b-instruct',
+  instanceReference: 'AU1tjHWfIKsyOpn8Km2y9e6e',
+  model: 'Qwen2.5-Coder-14B-Instruct-GGUF',
+  modelIdentifier: 'Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf'
+}
+[2383:0730/211532.899286:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/conversations/1784900209892.conversation.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/lmstudio-community/Qwen3.5-2B-GGUF/Qwen3.5-2B-Q4_K_M.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/google/gemma-4-12b-qat.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/lmstudio-community/Ministral-3-14B-Reasoning-2512-GGUF/Ministral-3-14B-Reasoning-2512-Q4_K_M.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/qwen2.5-coder-7b-instruct-q4_k_m.gguf.json
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf.json
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=settings] Getting HTTP server settings writable signal...
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=serverLogBufferData] Getting HTTP server log buffer data signal...
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[ApiPredictionHistoryProvider] Eviction ran (trigger=settingsChange).
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[EngineProtocolRuntimeManager] Engine protocol runtime process exited. exitCode=0, signal=null
+21:26:13.237 › [LLMProxyObject] Engine protocol runtime exited unexpectedly. exitCode=0, signal=null
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf.json
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[ModelLoadingProvider] Requested to load model Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf with opts {
+  identifier: { desired: 'qwen2.5-coder-14b-instruct', conflictBehavior: 'bump' },
+  excludeUserModelDefaultConfigLayer: true,
+  instanceLoadTimeConfig: { fields: [] },
+  ttlMs: undefined,
+  bypassGuardrails: false
+}
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[ModelLoadingProvider] Selected backend supports enabled engine protocol runtime llama-server at /home/seraf/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-nvidia-cuda-avx2-2.27.1/llama-server
+[ModelLoadingProvider] Loading LLM instance KKtE50vAZgl6+C471emdAbi/ with engine protocol runtime llama-server
+[ModelLoadingProvider] Started loading model Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf
+21:42:22.995 › [LM Studio] GPU Configuration:
+  Strategy: evenly
+  Priority: []
+  Disabled GPUs: []
+  Limit weight offload to dedicated GPU Memory: OFF
+  Offload KV Cache to GPU: ON
+[ProcessForkingProvider][NodeProcessForker] Spawned process 23684
+[ModelLoadingProvider] Estimate to use 10263115750.938183 bytes when loaded. (model: 9257754107.52, context: 1005361643.4181818) Previous estimation: 12583355097.599998 bytes.
+[ModelLoadingProvider] LMSCore.getAvailableVRAMByDevice failed for engine protocol runtime: Failed to initialize NVML, error code: 9
+[ProcessForkingProvider][NodeProcessForker] Exited process 23684
+21:42:24.301 › Falling back to shell for live VRAM by device
+21:42:24.381 › [LM Studio] Live GPU memory info (source 'shell'):
+  GPU 0: NVIDIA GeForce RTX 3060 (Used: 1.13 GB, Total: 12.88 GB, Free: 11.76 GB)
+21:42:24.383 › [LM Studio] Model load size estimate with raw num offload layers '48' and context length '8192':
+  Model: 9.26 GB
+  Context: 1005.36 MB
+  Total: 10.26 GB
+21:42:24.384 › [LM Studio] Strict GPU VRAM cap is OFF: GPU offload layers will not be checked for adjustment
+21:42:24.384 › [LM Studio] Resolved GPU config options:
+  Num Offload Layers: 48
+  Num CPU Expert Layers: 0
+  Main GPU: 0
+  Tensor Split: [0]
+  Disabled GPUs: []
+[LlamaServerEngineProtocolDriver] Launching llama-server with AutoFit disabled. {
+  autoFitEnabled: false,
+  modelIdentifier: 'Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf'
+}
+[EngineProtocolRuntimeManager] Started engine protocol runtime llama-server for KKtE50vAZgl6+C471emdAbi/ on port 45045
+[ModelLoadingProvider] LLM model loaded. {
+  backend: {
+    engine: 'llama.cpp',
+    name: 'llama.cpp-linux-x86_64-nvidia-cuda-avx2',
+    version: '2.27.1'
+  },
+  contextLength: 8192,
+  defaultIdentifier: 'qwen2.5-coder-14b-instruct',
+  instanceReference: 'KKtE50vAZgl6+C471emdAbi/',
+  model: 'Qwen2.5-Coder-14B-Instruct-GGUF',
+  modelIdentifier: 'Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf'
+}
+[2383:0730/214400.444879:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[EngineProtocolRuntimeManager] Engine protocol runtime process exited. exitCode=0, signal=null
+21:44:58.513 › [LLMProxyObject] Engine protocol runtime exited unexpectedly. exitCode=0, signal=null
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[BackendDownloadProvider] Experiment flags changed, refreshing backends master list
+[2383:0730/214637.657445:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214637.663692:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214637.666208:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214637.668722:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214637.696011:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.499256:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.502050:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.504647:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.507174:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.513800:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.974815:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.977232:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.979914:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214644.982475:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214645.005926:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214649.323901:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214908.052199:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214908.056958:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214908.060375:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214908.063309:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0730/214908.074709:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+(node:2383) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [Server]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[ModelLoadingProvider] Requested to load model Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/qwen2.5-coder-7b-instruct-q4_k_m.gguf with opts {
+  ttlMs: undefined,
+  isJIT: true,
+  instanceLoadTimeConfig: undefined,
+  cancelEvent: _0x326773 {
+    opts: {},
+    subscriber: null,
+    queued: [],
+    queuedItemsCount: 0,
+    queuedSize: 0,
+    isNotifying: false,
+    overflowError: null
+  }
+}
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/qwen2.5-coder-7b-instruct-q4_k_m.gguf.json
+22:00:05.961 › Error: Instance does not exist.
+    at _0x13af54.getModelByInstanceReferenceOrThrow (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:366:7862)
+    at _0x13af54.getLoadConfig (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:366:10236)
+    at _0x4eff7d.<computed>.getLoadConfig (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:369:77130)
+    at /tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1101:14124
+    at Array.map (<anonymous>)
+    at _0x202ee9.getAllModels (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1101:13899)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async _0x59f1fa.<computed> (/tmp/.mount_LM-StuTmeouM/resources/app/.webpack/main/index.js:1158:7981)
+[ModelLoadingProvider] Estimate to use 5865645210.3436365 bytes when loaded. (model: 4823565742.08, context: 1042079468.2636362) Previous estimation: 6556302950.4 bytes.
+[ModelLoadingProvider] Selected backend supports enabled engine protocol runtime llama-server at /home/seraf/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-nvidia-cuda-avx2-2.27.1/llama-server
+[ModelLoadingProvider] Loading LLM instance Ot4c/mA8HKAjHHEGXsQMMYfp with engine protocol runtime llama-server
+[ModelLoadingProvider] Started loading model Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/qwen2.5-coder-7b-instruct-q4_k_m.gguf
+22:00:05.977 › [LM Studio] GPU Configuration:
+  Strategy: evenly
+  Priority: []
+  Disabled GPUs: []
+  Limit weight offload to dedicated GPU Memory: OFF
+  Offload KV Cache to GPU: ON
+[ProcessForkingProvider][NodeProcessForker] Spawned process 43225
+[ModelLoadingProvider] LMSCore.getAvailableVRAMByDevice failed for engine protocol runtime: Failed to initialize NVML, error code: 9
+[ProcessForkingProvider][NodeProcessForker] Exited process 43225
+22:00:06.718 › Falling back to shell for live VRAM by device
+22:00:06.812 › [LM Studio] Live GPU memory info (source 'shell'):
+  GPU 0: NVIDIA GeForce RTX 3060 (Used: 968.88 MB, Total: 12.88 GB, Free: 11.92 GB)
+22:00:06.815 › [LM Studio] Model load size estimate with raw num offload layers 'max' and context length '32768':
+  Model: 4.82 GB
+  Context: 1042.08 MB
+  Total: 5.87 GB
+22:00:06.815 › [LM Studio] Not using full context length for VRAM overflow calculations due to single GPU setup. Instead, using '8192' as context length for the calculation. Original context length: '32768'.
+22:00:06.815 › [LM Studio] Strict GPU VRAM cap is OFF: GPU offload layers will not be checked for adjustment
+22:00:06.815 › [LM Studio] Resolved GPU config options:
+  Num Offload Layers: max
+  Num CPU Expert Layers: 0
+  Main GPU: 0
+  Tensor Split: [0]
+  Disabled GPUs: []
+[LlamaServerEngineProtocolDriver] Launching llama-server with AutoFit disabled. {
+  autoFitEnabled: false,
+  modelIdentifier: 'Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/qwen2.5-coder-7b-instruct-q4_k_m.gguf'
+}
+[EngineProtocolRuntimeManager] Started engine protocol runtime llama-server for Ot4c/mA8HKAjHHEGXsQMMYfp on port 46481
+[ModelLoadingProvider] LLM model loaded. {
+  backend: {
+    engine: 'llama.cpp',
+    name: 'llama.cpp-linux-x86_64-nvidia-cuda-avx2',
+    version: '2.27.1'
+  },
+  contextLength: 32768,
+  defaultIdentifier: 'qwen2.5-coder-7b-instruct',
+  instanceReference: 'Ot4c/mA8HKAjHHEGXsQMMYfp',
+  model: 'Qwen2.5-Coder-7B-Instruct-GGUF',
+  modelIdentifier: 'Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/qwen2.5-coder-7b-instruct-q4_k_m.gguf'
+}
+[2383:0730/220046.159374:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"Ot4c/mA8HKAjHHEGXsQMMYfp"}
+[MultiplexedLLMProvider] Getting model instance info for local model: Ot4c/mA8HKAjHHEGXsQMMYfp
+[LLMProvider] Getting model instance info for instance: Ot4c/mA8HKAjHHEGXsQMMYfp
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"Ot4c/mA8HKAjHHEGXsQMMYfp"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: Ot4c/mA8HKAjHHEGXsQMMYfp
+[MultiplexedLLMProvider] Predicting with local model: Ot4c/mA8HKAjHHEGXsQMMYfp
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: Ot4c/mA8HKAjHHEGXsQMMYfp
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen2.5-coder-7b-instruct
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=clearLogBuffer] Clearing HTTP server log buffer...
+Unloading model: Ot4c/mA8HKAjHHEGXsQMMYfp
+[EngineProtocolRuntimeHandle] Stopping engine protocol runtime for Ot4c/mA8HKAjHHEGXsQMMYfp
+[EngineProtocolRuntimeManager] Engine protocol runtime process exited. exitCode=0, signal=null
+[2383:0730/230532.282167:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[CachedFileDataProvider] Watching file at /home/seraf/.lmstudio/.internal/user-concrete-model-default-config/lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf.json
+[ModelLoadingProvider] Estimate to use 871137795.3127272 bytes when loaded. (model: 756894231.04, context: 114243564.27272727) Previous estimation: 1028788275.1999999 bytes.
+[ModelLoadingProvider] Estimate to use 871137795.3127272 bytes when loaded. (model: 756894231.04, context: 114243564.27272727) Previous estimation: 1028788275.1999999 bytes.
+[ModelLoadingProvider] Requested to load model lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf with opts {
+  identifier: { desired: 'qwen3.5-0.8b', conflictBehavior: 'bump' },
+  excludeUserModelDefaultConfigLayer: true,
+  instanceLoadTimeConfig: { fields: [] },
+  ttlMs: undefined,
+  bypassGuardrails: false
+}
+[ModelLoadingProvider] Estimate to use 871137795.3127272 bytes when loaded. (model: 756894231.04, context: 114243564.27272727) Previous estimation: 1028788275.1999999 bytes.
+[ModelLoadingProvider] Selected backend supports enabled engine protocol runtime llama-server at /home/seraf/.lmstudio/extensions/backends/llama.cpp-linux-x86_64-nvidia-cuda-avx2-2.27.1/llama-server
+[ModelLoadingProvider] Loading LLM instance JhMhDQMHHlwaa94Lrm+QelSm with engine protocol runtime llama-server
+[ModelLoadingProvider] Started loading model lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf
+05:30:24.712 › [LM Studio] GPU Configuration:
+  Strategy: evenly
+  Priority: []
+  Disabled GPUs: []
+  Limit weight offload to dedicated GPU Memory: OFF
+  Offload KV Cache to GPU: ON
+[ProcessForkingProvider][NodeProcessForker] Spawned process 148067
+[ModelLoadingProvider] Estimate to use 871137795.3127272 bytes when loaded. (model: 756894231.04, context: 114243564.27272727) Previous estimation: 1028788275.1999999 bytes.
+[ModelLoadingProvider] LMSCore.getAvailableVRAMByDevice failed for engine protocol runtime: Failed to initialize NVML, error code: 9
+[ProcessForkingProvider][NodeProcessForker] Exited process 148067
+05:30:26.092 › Falling back to shell for live VRAM by device
+05:30:26.195 › [LM Studio] Live GPU memory info (source 'shell'):
+  GPU 0: NVIDIA GeForce RTX 3060 (Used: 1.19 GB, Total: 12.88 GB, Free: 11.69 GB)
+05:30:26.202 › [LM Studio] Model load size estimate with raw num offload layers 'max' and context length '8192':
+  Model: 756.89 MB
+  Context: 114.24 MB
+  Total: 871.14 MB
+05:30:26.203 › [LM Studio] Strict GPU VRAM cap is OFF: GPU offload layers will not be checked for adjustment
+05:30:26.203 › [LM Studio] Resolved GPU config options:
+  Num Offload Layers: max
+  Num CPU Expert Layers: 0
+  Main GPU: 0
+  Tensor Split: [0]
+  Disabled GPUs: []
+[LlamaServerEngineProtocolDriver] Launching llama-server with AutoFit disabled. {
+  autoFitEnabled: false,
+  modelIdentifier: 'lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf'
+}
+[EngineProtocolRuntimeManager] Started engine protocol runtime llama-server for JhMhDQMHHlwaa94Lrm+QelSm on port 46617
+[ModelLoadingProvider] LLM model loaded. {
+  backend: {
+    engine: 'llama.cpp',
+    name: 'llama.cpp-linux-x86_64-nvidia-cuda-avx2',
+    version: '2.27.1'
+  },
+  contextLength: 8192,
+  defaultIdentifier: 'qwen3.5-0.8b',
+  instanceReference: 'JhMhDQMHHlwaa94Lrm+QelSm',
+  model: 'Qwen3.5-0.8B-GGUF',
+  modelIdentifier: 'lmstudio-community/Qwen3.5-0.8B-GGUF/Qwen3.5-0.8B-Q4_K_M.gguf'
+}
+[2383:0731/053032.319663:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=predict] Canceled predicting while generating.
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=predict] Canceled predicting while generating.
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listDownloadedModels] Listing downloaded models
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getLoadConfig] Getting load config stack for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getModelInfo] Getting descriptor for specifier: {"type":"query","query":{"identifier":"qwen3.5-0.8b"}}
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=listLoaded] Listing loaded models
+[MultiplexedLLMProvider] Getting model instance info for local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Getting model instance info for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[LMSInternal][LMSAuthenticator][Client=LM Studio][Endpoint=getBasePredictionConfig] Getting base prediction config stack for specifier: {"type":"instanceReference","instanceReference":"JhMhDQMHHlwaa94Lrm+QelSm"}
+[MultiplexedServerSessionProvider] Getting config stack for local instance: JhMhDQMHHlwaa94Lrm+QelSm
+[MultiplexedLLMProvider] Predicting with local model: JhMhDQMHHlwaa94Lrm+QelSm
+[LLMProvider] Dispatching local LLM predict through engine protocol for instance: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolClient] op=predict runtime=llama-server instance=qwen3.5-0.8b
+Unloading model: JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolRuntimeHandle] Stopping engine protocol runtime for JhMhDQMHHlwaa94Lrm+QelSm
+[EngineProtocolRuntimeManager] Engine protocol runtime process exited. exitCode=0, signal=null
+[2383:0731/085208.572652:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0731/215848.022179:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[AppWindowProvider] Main window closed (windowKey=window-1)
+[AppProjectsManager] App window closed: window-1 (projects: default-project-identifier)
+[FileWatchingProvider] Start syncing file watching provider... Changes may be missed during this process.
+[FileWatchingProvider] Sync completed.
+[CleanupProvider] Running 4 pre-cleanups...
+[CleanupProvider] Running pre-cleanup: Shutdown system resources observer (1/4)
+[CleanupProvider] Running pre-cleanup: Shutdown LM Link (2/4)
+[LMLinkProvider] Requested to stop LM Link, but it is already offline. Doing nothing.
+[CleanupProvider] Running pre-cleanup: system external api shutdown (3/4)
+[CleanupProvider] Running pre-cleanup: Abort ongoing predictions (4/4)
+[CleanupProvider] Running 13 cleanups...
+[CleanupProvider] Running cleanup: flush queued writes (1/13)
+[CleanupProvider] Running cleanup: Stop file watchers (2/13)
+[CleanupProvider] Running cleanup: Shutdown Python runtimes (3/13)
+[CleanupProvider] Running cleanup: Terminate child processes (4/13)
+[ProcessForkingProvider][NodeProcessForker] Killing process 2520
+[CleanupProvider] Running cleanup: Terminate amphibian child processes (5/13)
+[CleanupProvider] Running cleanup: Stop engine protocol runtimes (6/13)
+[CleanupProvider] Running cleanup: Shutdown http server (7/13)
+[2383:0731/215848.596125:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2383:0731/215848.611063:ERROR:content/browser/browser_main_loop.cc:286] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[CleanupProvider] Running cleanup: FrameworkProvider cleanup (8/13)
+[CleanupProvider] Running cleanup: ImageProcessingProvider cleanup (9/13)
+[CleanupProvider] Running cleanup: model index watchers (10/13)
+[CleanupProvider] Running cleanup: cleanup temp folder (11/13)
+[ProcessForkingProvider][NodeProcessForker] Exited process 2520
+[CleanupProvider] Running cleanup: Kill plugin processes (12/13)
+[CleanupProvider] Running cleanup: Shutdown api server (13/13)
+App is quitting

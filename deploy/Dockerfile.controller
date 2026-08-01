@@ -1,0 +1,12 @@
+FROM debian:bookworm-slim
+
+RUN apt-get update \
+    && apt-get install --yes --no-install-recommends ca-certificates curl \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN useradd --create-home --uid 1000 --shell /usr/sbin/nologin arena
+COPY --chown=arena:arena data/build/controller-linux /usr/local/bin/controller
+
+USER arena
+WORKDIR /app
+ENTRYPOINT ["/usr/local/bin/controller"]

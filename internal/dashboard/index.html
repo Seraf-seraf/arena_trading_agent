@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Arena Trading Agent</title>
+  <style>
+    :root { color-scheme: dark; font: 15px/1.45 system-ui,sans-serif; background:#101318; color:#e8edf4 }
+    body { margin:0; padding:24px; max-width:1400px }
+    h1 { margin:0 0 18px; font-size:25px }
+    .grid { display:grid; grid-template-columns:minmax(300px,440px) minmax(420px,1fr); gap:18px }
+    .card { background:#181d25; border:1px solid #2a3240; border-radius:10px; padding:16px; margin-bottom:18px }
+    .row { display:flex; gap:9px; flex-wrap:wrap; align-items:center }
+    button,select { color:inherit; background:#242c38; border:1px solid #3c485a; border-radius:6px; padding:8px 11px }
+    button:hover { background:#303a49 }
+    button.danger { border-color:#a54a4a; background:#532828 }
+    .ok { color:#79d58b }.bad { color:#ff8585 }.muted { color:#93a0b3 }
+    pre { white-space:pre-wrap; word-break:break-word; max-height:430px; overflow:auto; background:#0e1116; padding:12px; border-radius:6px }
+    img { width:100%; min-height:260px; object-fit:contain; background:#07090c; border-radius:6px }
+    dl { display:grid; grid-template-columns:140px 1fr; gap:5px 10px } dt { color:#93a0b3 } dd { margin:0 }
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <h1>Arena Trading Agent <span id="connection" class="muted">загрузка…</span></h1>
+  <div class="grid">
+    <div>
+      <section class="card">
+        <h2>Управление</h2>
+        <div class="row">
+          <select id="mode">
+            <option>PAUSED</option><option>OBSERVE</option><option>SIMULATE</option>
+            <option>SCAN</option><option>TRADE</option>
+          </select>
+          <button onclick="setMode()">Применить режим</button>
+          <button onclick="observe()">Снять и распознать</button>
+          <button onclick="preflight(false)">Проверка наблюдения</button>
+          <button onclick="preflight(true)">Проверка торговли</button>
+          <button class="danger" onclick="emergency()">Аварийная остановка</button>
+        </div>
+        <p class="muted">Режим TRADE требует успешной предварительной проверки и Windows Agent с флагом allow-input.</p>
+      </section>
+      <section class="card">
+        <h2>Состояние выполнения</h2>
+        <dl id="summary"></dl>
+        <pre id="runtime">{}</pre>
+      </section>
+      <section class="card">
+        <h2>Автоматизация и сделки</h2>
+        <pre id="automation">{}</pre>
+      </section>
+      <section class="card">
+        <h2>Результат</h2>
+        <pre id="result">Команды ещё не выполнялись.</pre>
+      </section>
+    </div>
+    <div>
+      <section class="card">
+        <h2>Последний кадр</h2>
+        <img id="frame" alt="Кадр ещё не получен">
+      </section>
+      <section class="card">
+        <h2>Наблюдение</h2>
+        <pre id="observation">{}</pre>
+      </section>
+      <section class="card">
+        <h2>Последние исполнения</h2>
+        <pre id="executions">{}</pre>
+      </section>
+    </div>
+  </div>
+<script>
+const pretty = value => JSON.stringify(value, null, 2);
+async function json(url, options) {
+  const methodCtx = 'dashboard.json';
+  let response;
+  try {
+    response = await fetch(url, options);
+  } catch (error) {
+    const message = `${methodCtx}: не удалось выполнить запрос к контроллеру`;
+    throw Object.assign(new Error(message, {cause:error}), {value:{error:message}});
+  }
+  let value;
+  try {
+    value = await response.json();
+  } catch (error) {
+    const message = `${methodCtx}: сервер вернул ответ в неверном формате (код HTTP ${response.status})`;
+    throw Object.assign(new Error(message, {cause:error}), {value:{error:message}});
+  }
+  if (!response.ok) {
+    const detail = value && typeof value === 'object' && value.error
+      ? value.error
+      : `сервер вернул код HTTP ${response.status}`;
+    const message = `${methodCtx}: ${detail}`;
+    const operatorValue = value && typeof value === 'object' && !Array.isArray(value)
+      ? {...value, error:message}
+      : {error:message};
+    throw Object.assign(new Error(message), {value:operatorValue});
+  }
+  return value;
+}
+async function refresh() {
+  const methodCtx = 'dashboard.refresh';
+  try {
+    const [state, runtime, automation, executions] = await Promise.all([
+      json('/api/v1/state'),
+      json('/api/v1/runtime'),
+      json('/api/v1/automation'),
+      json('/api/v1/automation/executions?limit=20'),
+    ]);
+    document.querySelector('#connection').textContent = state.agents.length ? '● агент подключён' : '○ агент не подключён';
+    document.querySelector('#connection').className = state.agents.length ? 'ok' : 'bad';
+    document.querySelector('#mode').value = state.mode;
+    document.querySelector('#runtime').textContent = pretty({controller:state, session:runtime});
+    document.querySelector('#automation').textContent = pretty(automation);
+    document.querySelector('#executions').textContent = pretty(executions.executions || []);
+    document.querySelector('#observation').textContent = pretty(runtime.latest_observation || {});
+    renderSummary([
+      ['Режим', state.mode],
+      ['Агенты', state.agents.length],
+      ['Наблюдения', runtime.observed_count],
+      ['Движок запущен', automation.running ? 'да' : 'нет'],
+      ['Ошибки подряд', automation.error_streak || 0],
+      ['Восстановление', automation.recovery_blocked ? 'заблокировано' : 'готово'],
+      ['Активная сделка', automation.active_saga?.id || '—'],
+      ['Последняя ошибка', automation.last_error || runtime.last_error || '—'],
+    ]);
+    if (state.agents.length && state.agents[0].latest_frame) {
+      document.querySelector('#frame').src = `/api/v1/agents/${encodeURIComponent(state.agents[0].agent_id)}/frame?raw=true&t=${Date.now()}`;
+    }
+  } catch (error) {
+    const detail = error?.value?.error || 'не удалось обновить данные панели управления';
+    document.querySelector('#connection').textContent = `● ${methodCtx}: контроллер недоступен: ${detail}`;
+    document.querySelector('#connection').className = 'bad';
+  }
+}
+function renderSummary(entries) {
+  const summary = document.querySelector('#summary');
+  const nodes = [];
+  for (const [label, value] of entries) {
+    const term = document.createElement('dt');
+    term.textContent = label;
+    const description = document.createElement('dd');
+    description.textContent = String(value);
+    nodes.push(term, description);
+  }
+  summary.replaceChildren(...nodes);
+}
+async function setMode() {
+  const methodCtx = 'dashboard.setMode';
+  const mode = document.querySelector('#mode').value;
+  if ((mode === 'SCAN' || mode === 'TRADE') && !confirm(`Включить режим ${mode}? Он разрешает ввод в игру.`)) return;
+  try {
+    show(await json('/api/v1/mode', {method:'PUT',headers:{'Content-Type':'application/json'},body:pretty({mode})}));
+  } catch (error) {
+    showError(methodCtx, error);
+  }
+  refresh();
+}
+async function observe() {
+  const methodCtx = 'dashboard.observe';
+  try { show(await json('/api/v1/runtime/observe', {method:'POST'})); } catch(error) { showError(methodCtx, error); }
+  refresh();
+}
+async function preflight(trade) {
+  const methodCtx = 'dashboard.preflight';
+  try { show(await json(`/api/v1/runtime/preflight?trade=${trade}`, {method:'POST'})); } catch(error) { showError(methodCtx, error); }
+  refresh();
+}
+async function emergency() {
+  const methodCtx = 'dashboard.emergency';
+  try {
+    const state = await json('/api/v1/state');
+    if (!state.agents.length) return show({error:`${methodCtx}: агент не подключён`});
+    if (!confirm('Немедленно остановить Windows Agent?')) return;
+    show(await json(`/api/v1/agents/${encodeURIComponent(state.agents[0].agent_id)}/commands`, {
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:pretty({type:'EMERGENCY_STOP',reason:'аварийная остановка из панели управления'})
+    }));
+  } catch(error) {
+    showError(methodCtx, error);
+  }
+  refresh();
+}
+function showError(callerCtx, error) {
+  const methodCtx = 'dashboard.showError';
+  const value = error?.value && typeof error.value === 'object' && !Array.isArray(error.value)
+    ? error.value
+    : {};
+  const detail = value.error || 'операция завершилась ошибкой';
+  show({...value, error:`${callerCtx}: ${methodCtx}: ${detail}`});
+}
+function show(value){document.querySelector('#result').textContent=pretty(value)}
+refresh(); setInterval(refresh, 3000);
+</script>
+</body>
+</html>

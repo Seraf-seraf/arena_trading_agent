@@ -1,0 +1,2 @@
+ALTER TABLE action_requests
+    ADD COLUMN action_class TEXT NOT NULL DEFAULT 'NAVIGATION';

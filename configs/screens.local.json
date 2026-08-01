@@ -1,0 +1,182 @@
+{
+  "screens": [
+    {
+      "state": "MAIN_MENU",
+      "min_confidence": 0.88,
+      "anchors": [
+        {
+          "region": { "x": 0.015, "y": 0.015, "width": 0.09, "height": 0.07 },
+          "template": "../data/calibration/raw/MAIN_MENU/203150.381510600-01785529334048625407.png",
+          "max_distance": 8
+        },
+        {
+          "region": { "x": 0.30, "y": 0.945, "width": 0.39, "height": 0.045 },
+          "template": "../data/calibration/raw/MAIN_MENU/203150.381510600-01785529334048625407.png",
+          "max_distance": 8
+        }
+      ],
+      "regions": {
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    },
+    {
+      "state": "CONTACTS",
+      "min_confidence": 0.86,
+      "anchors": [
+        {
+          "region": { "x": 0.175, "y": 0.20, "width": 0.025, "height": 0.55 },
+          "template": "../data/calibration/raw/CONTACTS/200915.993663300-01785527792786971504.png",
+          "max_distance": 12
+        },
+        {
+          "region": { "x": 0.555, "y": 0.675, "width": 0.25, "height": 0.07 },
+          "template": "../data/calibration/raw/CONTACTS/200915.993663300-01785527792786971504.png",
+          "max_distance": 12
+        }
+      ]
+    },
+    {
+      "state": "CONTACT_PAGE",
+      "min_confidence": 0.85,
+      "anchors": [
+        {
+          "region": { "x": 0.575, "y": 0.125, "width": 0.35, "height": 0.055 },
+          "template": "../data/calibration/raw/CONTACT_PAGE/202341.580436900-01785529334048625401.png",
+          "max_distance": 10
+        }
+      ],
+      "regions": {
+        "contact_name": { "x": 0.08, "y": 0.045, "width": 0.22, "height": 0.06 },
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    },
+    {
+      "state": "BARTER_CARD",
+      "min_confidence": 0.88,
+      "anchors": [
+        {
+          "region": { "x": 0.485, "y": 0.08, "width": 0.20, "height": 0.09 },
+          "template": "../data/calibration/raw/BARTER_CARD/203735.753103800-01785529334048625412.png",
+          "max_distance": 8
+        },
+        {
+          "region": { "x": 0.50, "y": 0.26, "width": 0.34, "height": 0.08 },
+          "template": "../data/calibration/raw/BARTER_CARD/203735.753103800-01785529334048625412.png",
+          "max_distance": 10
+        },
+        {
+          "region": { "x": 0.35, "y": 0.43, "width": 0.30, "height": 0.15 },
+          "template": "../data/calibration/raw/BARTER_CARD/203735.753103800-01785529334048625412.png",
+          "max_distance": 4
+        }
+      ],
+      "regions": {
+        "result_item_name": { "x": 0.14, "y": 0.08, "width": 0.32, "height": 0.055 },
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    },
+    {
+      "state": "MARKET_HOME",
+      "min_confidence": 0.88,
+      "anchors": [
+        {
+          "region": { "x": 0.05, "y": 0.12, "width": 0.10, "height": 0.035 },
+          "template": "../data/calibration/raw/MARKET_HOME/214504.467989200-01785534285779446301.png",
+          "max_distance": 2
+        },
+        {
+          "region": { "x": 0.20, "y": 0.115, "width": 0.25, "height": 0.055 },
+          "template": "../data/calibration/raw/MARKET_HOME/214504.467989200-01785534285779446301.png",
+          "max_distance": 1
+        },
+        {
+          "region": { "x": 0.59, "y": 0.945, "width": 0.10, "height": 0.045 },
+          "template": "../data/calibration/raw/MARKET_HOME/214504.467989200-01785534285779446301.png",
+          "max_distance": 8
+        }
+      ],
+      "regions": {
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    },
+    {
+      "state": "MARKET_RESULTS",
+      "min_confidence": 0.88,
+      "anchors": [
+        {
+          "region": { "x": 0.045, "y": 0.16, "width": 0.145, "height": 0.10 },
+          "template": "../data/calibration/raw/MARKET_RESULTS/204236.255715700-01785529334048625418.png",
+          "max_distance": 8
+        },
+        {
+          "region": { "x": 0.19, "y": 0.105, "width": 0.12, "height": 0.07 },
+          "template": "../data/calibration/raw/MARKET_RESULTS/204236.255715700-01785529334048625418.png",
+          "max_distance": 10
+        }
+      ],
+      "regions": {
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    },
+    {
+      "state": "PURCHASE_DIALOG",
+      "min_confidence": 0.65,
+      "anchors": [
+        {
+          "region": { "x": 0.55, "y": 0.18, "width": 0.075, "height": 0.04 },
+          "template": "../data/calibration/raw/ITEM_CARD/204724.416596800-01785529334048625422.png",
+          "max_distance": 20
+        },
+        {
+          "region": { "x": 0.55, "y": 0.27, "width": 0.24, "height": 0.075 },
+          "template": "../data/calibration/raw/ITEM_CARD/204724.416596800-01785529334048625422.png",
+          "max_distance": 14
+        },
+        {
+          "region": { "x": 0.535, "y": 0.42, "width": 0.015, "height": 0.20 },
+          "template": "../data/calibration/raw/ITEM_CARD/204724.416596800-01785529334048625422.png",
+          "max_distance": 8
+        }
+      ],
+      "regions": {
+        "item_name": { "x": 0.20, "y": 0.17, "width": 0.33, "height": 0.055 },
+        "purchase_price": { "x": 0.74, "y": 0.71, "width": 0.055, "height": 0.05 },
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    },
+    {
+      "state": "CONFIRMATION",
+      "min_confidence": 0.90,
+      "anchors": [
+        {
+          "region": { "x": 0.35, "y": 0.21, "width": 0.30, "height": 0.10 },
+          "template": "../data/calibration/raw/CONFIRMATION/204859.691221700-01785529334048625423.png",
+          "max_distance": 6
+        },
+        {
+          "region": { "x": 0.40, "y": 0.64, "width": 0.20, "height": 0.06 },
+          "template": "../data/calibration/raw/CONFIRMATION/204859.691221700-01785529334048625423.png",
+          "max_distance": 8
+        }
+      ],
+      "regions": {
+        "item_name": { "x": 0.43, "y": 0.47, "width": 0.16, "height": 0.045 },
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    },
+    {
+      "state": "INVENTORY",
+      "min_confidence": 0.88,
+      "anchors": [
+        {
+          "region": { "x": 0.30, "y": 0.945, "width": 0.11, "height": 0.045 },
+          "template": "../data/calibration/raw/INVENTORY/205454.351293700-01785529334048625426.png",
+          "max_distance": 8
+        }
+      ],
+      "regions": {
+        "balance": { "x": 0.895, "y": 0.018, "width": 0.055, "height": 0.045 }
+      }
+    }
+  ]
+}

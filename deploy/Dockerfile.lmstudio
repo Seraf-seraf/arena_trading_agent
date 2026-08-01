@@ -1,0 +1,15 @@
+FROM debian:bookworm-slim
+
+RUN apt-get update \
+    && apt-get install --yes --no-install-recommends \
+        ca-certificates curl libatomic1 libstdc++6 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN useradd --create-home --uid 1000 --shell /bin/bash seraf
+COPY --chown=seraf:seraf scripts/lmstudio-container-entrypoint.sh /usr/local/bin/lmstudio-entrypoint
+RUN chmod 0755 /usr/local/bin/lmstudio-entrypoint
+
+USER seraf
+ENV HOME=/home/seraf
+WORKDIR /home/seraf
+ENTRYPOINT ["/usr/local/bin/lmstudio-entrypoint"]
